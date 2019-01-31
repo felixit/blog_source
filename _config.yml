@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Feilin (Felix) Jia (贾斐霖)
+title: CFD Play
 subtitle: Let's talk about CFD, Education, IT...
 description: PhD Candidate, KUAE, USA
 author: Feilin (Felix) Jia
@@ -16,6 +16,10 @@ url: http://cfdplay.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+
+# sitemap
+sitemap:
+    path: sitemap.xml
 
 # Directory
 source_dir: source
