@@ -4,7 +4,7 @@
 
 # Site
 title: CFD Play
-subtitle: Let's talk about CFD, Education, IT...
+subtitle: Computing, Education, IT...
 description: PhD Candidate, KUAE, USA
 author: Feilin (Felix) Jia
 language: en
@@ -75,3 +75,12 @@ deploy:
   type: git
   repo: https://github.com/felixit/felixit.github.io.git
   branch: master
+#language
+#- zh-CN
+#- en
+# hexo default is empty, change to exact languages, and add xx.yml under your theme languages dir.
+#language: [zh-Hans,en]
+# config hexo-generator-i18n option (optional, this is default option)
+#i18n:
+#  type: [page, post]
+#  generator: [index, archive, category, tag]
